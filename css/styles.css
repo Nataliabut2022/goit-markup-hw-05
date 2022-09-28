@@ -102,7 +102,7 @@ img {
     display: flex;      
 }
 
-.site-nav-link {
+.site-nav-link {    
     transition-property: color, background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -129,8 +129,7 @@ img {
 
 .auth-link:hover,
 .auth-link:focus {
-    color: var(--accent-txt-cl);
-    
+    color: var(--accent-txt-cl);    
 }
     
 
@@ -139,7 +138,7 @@ img {
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
-    cursor: pointer;    
+    cursor: pointer;
 }
 
 .nav-item {    
@@ -168,6 +167,7 @@ img {
 .nav-item:focus {
     color: var(--accent-txt-cl);
 }
+
 
 .hero {
     background-color: #2F303A; 
