@@ -552,7 +552,7 @@ img {
     
 }
 
-..portfolio-link {
+.portfolio-link {
     display: block;  
     
     transition-property: box-shadow;
